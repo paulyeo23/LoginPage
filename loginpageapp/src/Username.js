@@ -6,7 +6,7 @@ const Username = (usernameInput, setUsernameInput) => {
             required
             autoFocus
             value={usernameInput}
-            onChange={setUsernameInput((e)=>e.target.value)}
+            onChange={(e)=>setUsernameInput(e.target.value)}
         />
         
     </form>

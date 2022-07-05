@@ -5,7 +5,7 @@ const Password = (passwordInput, setPasswordInput, handleSubmit) => {
             type="text" 
             required
             value={passwordInput}
-            onChange={setPasswordInput((e)=>e.target.value)}
+            onChange={(e)=>setPasswordInput(e.target.value)}
         />
         
     </form>
